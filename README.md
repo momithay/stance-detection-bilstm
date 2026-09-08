@@ -147,13 +147,10 @@ The drop from the benchmark to the independent set is itself an informative resu
 
 ```
 .
-├── notebooks/
-│   └── stance_detection_bilstm.ipynb   # EDA, preprocessing, model ablations, evaluation
-├── data/
-│   ├── StanceDataset/                  # SemEval-2016 train.csv / test.csv (not committed)
-│   └── independent_data.csv            # manually labeled generalization test set
-├── README.md
-└── requirements.txt
+├── stance-detection-bilstm.ipynb   # EDA, preprocessing, model ablations, evaluation
+├── independent_data.csv            # manually collected & labeled generalization test set
+├── .gitignore
+└── README.md
 ```
 
 > **Note on data**: the SemEval-2016 Stance Dataset is available from its original source (linked above) under its own terms of use and is not redistributed here.
