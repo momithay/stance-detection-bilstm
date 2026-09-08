@@ -1,0 +1,18 @@
+# Large / restricted-license data
+*.txt
+!requirements.txt
+data/
+StanceDataset/
+checkpoints/
+*.pb
+variables/
+glove*.txt
+
+# Model artifacts
+final_model/
+*.index
+*.data-00000-of-00001
+
+# OS/editor junk
+.DS_Store
+.ipynb_checkpoints/
